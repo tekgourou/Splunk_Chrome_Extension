@@ -14,7 +14,7 @@ A Chrome extension that allows you to quickly search selected text in Splunk wit
 ## Screenshots
 
 ### Configuration Interface
-![Configuration Interface](screenshots/configuration.png)
+![Configuration Interface](configuration.png)
 *Easy-to-use configuration interface for setting up your Splunk connection*
 
 ### Context Menu Integration
