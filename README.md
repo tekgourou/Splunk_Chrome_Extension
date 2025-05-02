@@ -22,7 +22,7 @@ A Chrome extension that allows you to quickly search selected text in Splunk wit
 *Right-click on selected text to search in Splunk*
 
 ### Grouped Results View
-![Grouped Results](screenshots/grouped-results.png)
+![Grouped Results](grouped-results.png)
 *Smart grouping of similar log entries with occurrence counts*
 
 ## Installation
