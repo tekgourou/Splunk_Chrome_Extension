@@ -11,15 +11,30 @@ A Chrome extension that allows you to quickly search selected text in Splunk wit
 - 🪟 Results displayed in a convenient popup window
 - 🐛 Built-in debug tools for troubleshooting
 
+## Screenshots
+
+### Configuration Interface
+![Configuration Interface](screenshots/configuration.png)
+*Easy-to-use configuration interface for setting up your Splunk connection*
+
+### Context Menu Integration
+![Context Menu](screenshots/context-menu.png)
+*Right-click on selected text to search in Splunk*
+
+### Grouped Results View
+![Grouped Results](screenshots/grouped-results.png)
+*Smart grouping of similar log entries with occurrence counts*
+
 ## Installation
 
-### Load Unpacked Extension (Development)
+### Option 1: Load Unpacked Extension (Development)
 
-1. Download  the ZIP file and extract to a directory
+1. Download the ZIP file and extract to a directory
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" in the top right corner
 4. Click "Load unpacked"
 5. Select the extension directory containing `manifest.json`
+
 
 ## Configuration
 
@@ -50,10 +65,18 @@ A Chrome extension that allows you to quickly search selected text in Splunk wit
 ### Results View Features
 
 - **Grouped Results**: Similar log entries are grouped with occurrence counts
+- **Pattern Detection**: Automatically identifies and groups similar messages
 - **Expandable Details**: Click on any group to see individual instances
 - **Search Highlighting**: Your search terms are highlighted in yellow
 - **Quick Stats**: View total results and unique patterns at a glance
 - **Open in Splunk**: Click to open the full search in Splunk UI
+
+## Example Workflow
+
+1. **Select Text**: Highlight a URL, error message, or any text you want to search
+2. **Right-Click**: Open the context menu
+3. **Search**: Click "Search in Splunk: 'https://mobile.events.data.microsoft.com'"
+4. **View Results**: See grouped results with pattern counts
 
 ## Troubleshooting
 
@@ -95,20 +118,16 @@ splunk-quick-search/
 ├── results.js            # Results handling and grouping
 ├── debug.html            # Debug interface
 ├── debug.js              # Debug functionality
-└── images/               # Extension icons
-    ├── splunk-icon-16.png
-    ├── splunk-icon-48.png
-    └── splunk-icon-128.png
+├── images/               # Extension icons
+│   ├── splunk-icon-16.png
+│   ├── splunk-icon-48.png
+│   └── splunk-icon-128.png
+├── screenshots/          # Documentation images
+│   ├── configuration.png
+│   ├── context-menu.png
+│   └── grouped-results.png
+└── README.md             # This file
 ```
-
-## Development
-
-### Prerequisites
-
-- Chrome browser
-- Basic knowledge of Chrome extension development
-- Access to a Splunk instance
-
 
 ## Security Considerations
 
@@ -139,9 +158,10 @@ This project is provided as-is without warranty. Feel free to modify and distrib
 ### Version 1.0
 - Initial release
 - Token-based authentication
-- Grouped results view
+- Grouped results view with pattern detection
 - Customizable search templates
 - Debug tools
+- Context menu integration
 
 ---
 
