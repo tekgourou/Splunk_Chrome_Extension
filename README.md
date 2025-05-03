@@ -88,8 +88,7 @@ A Chrome extension that allows you to quickly search selected text in Splunk wit
    - Check if token has expired
 
 2. **"Network error" or SSL certificate issues**
-   - For self-signed certificates, visit your Splunk URL directly and accept the certificate
-   - Try using HTTP instead of HTTPS for development environments
+   - Self-signed certificates is not supported
    - Verify the API URL is accessible from your network
 
 3. **No results found**
@@ -140,8 +139,8 @@ splunk-quick-search/
 
 - Maximum results limited to 50,000
 - Pattern grouping may not catch all variations
-- SSL certificate validation cannot be bypassed programmatically
-
+- SSL certificate validation cannot be bypassed
+  
 ## Support
 
 This Chrome extension is not officially supported by Splunk.
