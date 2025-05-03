@@ -4,12 +4,12 @@ A Chrome extension that allows you to quickly search selected text in Splunk wit
 
 ## Features
 
-- 🔍 Right-click any selected text to search in Splunk
-- 📊 Grouped results view with pattern detection and counts
-- 🔒 Token-based authentication for secure access
-- ⚙️ Customizable search templates and time ranges
-- 🪟 Results displayed in a convenient popup window
-- 🐛 Built-in debug tools for troubleshooting
+- Right-click any selected text to search in Splunk
+- Grouped results view with pattern detection and counts
+- Token-based authentication for secure access
+- Customizable search templates and time ranges
+- Results displayed in a convenient popup window
+- Built-in debug tools for troubleshooting
 
 ## Screenshots
 
