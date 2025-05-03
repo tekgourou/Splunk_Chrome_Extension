@@ -164,4 +164,4 @@ This project is provided as-is without warranty.
 
 ---
 
-**Note**: This extension requires a Splunk instance with API access enabled and a valid authentication token.
+**Note**: This extension requires a Splunk instance with REST API access enabled and a valid authentication token.
