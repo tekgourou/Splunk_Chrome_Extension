@@ -150,7 +150,7 @@ For questions, issues, or feature requests, please contact:
 
 ## License
 
-This project is provided as-is without warranty. Feel free to modify and distribute according to your needs.
+This project is provided as-is without warranty.
 
 ## Changelog
 
