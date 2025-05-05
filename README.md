@@ -154,7 +154,7 @@ This project is provided as-is without warranty.
 
 ## Changelog
 
-### Version 1.0
+### Version 1.2
 - Initial release
 - Token-based authentication
 - Grouped results view with pattern detection
@@ -162,6 +162,17 @@ This project is provided as-is without warranty.
 - Debug tools
 - Context menu integration
 
+# Acknowledgments
+
+This extension was built with assistance from Claude, an AI assistant by Anthropic. Claude helped with:
+
+- Developing the core extension functionality
+- Creating pattern recognition for grouping similar logs
+- Implementing token-based authentication
+- Troubleshooting Chrome Web Store permission requirements
+- Fixing compatibility issues in service workers
+- Writing documentation and code comments
+  
 ---
 
 **Note**: This extension requires a Splunk instance with REST API access enabled and a valid authentication token.
