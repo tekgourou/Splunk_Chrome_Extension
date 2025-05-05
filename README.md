@@ -1,6 +1,6 @@
 # Splunk Quick Search Chrome Extension
 
-A Chrome extension that allows you to quickly search selected text in Splunk with a simple right-click in any web page.
+Allow users to instantly search selected text in their Splunk instance with a simple right-click. The extension adds a 'Search in Splunk' option to Chrome's context menu, which automatically executes a search in Splunk using the selected text and displays the results in a popup window with intelligent grouping of similar events.
 
 ## Features
 
