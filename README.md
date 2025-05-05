@@ -143,7 +143,7 @@ splunk-quick-search/
   
 ## Support
 
-This Chrome extension is not officially supported by Splunk.
+This Chrome extension is not supported by Splunk.
 
 For questions, issues, or feature requests, please contact:
 **alexandre@argeris.net**
