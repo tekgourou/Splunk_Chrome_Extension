@@ -29,7 +29,7 @@ A Chrome extension that allows you to quickly search selected text in Splunk wit
 
 ### Option 1: Load Unpacked Extension (Development)
 
-1. Download the ZIP file and extract to a directory
+1. Download the ZIP file and extract to a directory (Available upon request)
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" in the top right corner
 4. Click "Load unpacked"
