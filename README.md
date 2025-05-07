@@ -30,14 +30,8 @@ Allow users to instantly search selected text in their Splunk instance with a si
 
 ## Installation
 
-### Option 1: Load Unpacked Extension (Development)
-
-1. Download the ZIP file and extract to a directory (Available upon request)
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable "Developer mode" in the top right corner
-4. Click "Load unpacked"
-5. Select the extension directory containing `manifest.json`
-
+[Chrome Extension web store link 
+](https://chromewebstore.google.com/detail/splunk-quick-search/cjcgknldmhkjfdbdcbnbgkpgbbonimgj?authuser=0&hl=fr)
 
 ## Configuration
 
